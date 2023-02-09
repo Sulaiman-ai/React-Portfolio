@@ -1,13 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import {Routes, Route, NavLink} from 'react-router-dom';
+
 import Home from './pages/home';
+import Contact from './pages/contact';
+import Projects from './pages/projects';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Home></Home>
+        <nav>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/contact">Contact me</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
+        </nav>
+        {/* <Home></Home> */}
+        {/* <Contact></Contact> */}
+        {/* <Projects></Projects> */}
+        
       </main>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+      </Routes>
     </div>
     // <div className="App">
     //   <header className="App-header">

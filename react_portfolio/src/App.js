@@ -10,11 +10,13 @@ function App() {
   return (
     <div className="App">
       <main>
+      <header className="App-header">
         <nav>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" style={{color: "white"}}>Home</NavLink>
           <NavLink to="/contact">Contact me</NavLink>
           <NavLink to="/projects">Projects</NavLink>
         </nav>
+        </header>
         {/* <Home></Home> */}
         {/* <Contact></Contact> */}
         {/* <Projects></Projects> */}

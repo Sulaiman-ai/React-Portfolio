@@ -1,20 +1,13 @@
 function ContactForm(){
     return (
         <>
-        <div>
-            <h1>Contact Form</h1>
+        <div className="contact-form-container">
+            <h1>Contact me</h1>
             <p>React form module</p>
-            <form>
-                <label>Email:
-                    <input type="text" name="name"/>
-                </label>
+            <form className="Contact-form">
+                <input type="text" name="email" placeholder="Enter your email address"/>
+                <textArea placeholder="Message"/>
                 <input type="submit" value="submit"/>
-                <label>
-                    Message:
-                    <textArea>
-                        Hi Sulaiman,
-                    </textArea>
-                </label>
             </form>
         </div>
         </>

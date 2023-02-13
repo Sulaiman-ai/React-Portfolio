@@ -1,6 +1,20 @@
-{
-    "title": "NucliHealth",
-    "deloyed": "github.io",
-    "repo": "github.com",
-    "demosrc": "src.src.com"
-}
+[
+    {
+        "title": "NucliHealth",
+        "deployed": "https://github.com/Sulaiman-ai/Fitness-App",
+        "repo": "https://github.com/Sulaiman-ai/Fitness-App",
+        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Fitness-App/blob/main/assets/img/mindandboday.gif"
+    },
+    {
+        "title": "Console Finances",
+        "deployed": "https://sulaiman-ai.github.io/Console-Finances/",
+        "repo": "https://github.com/Sulaiman-ai/Console-Finances",
+        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Console-Finances/main/screenshot.PNG"
+    },
+    {
+        "title": "Password Generator",
+        "deployed": "https://sulaiman-ai.github.io/Password-Generator/",
+        "repo": "https://github.com/Sulaiman-ai/Password-Generator",
+        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Password-Generator/main/assets/images/screenshot.PNG"
+    }
+]

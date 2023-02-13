@@ -6,17 +6,20 @@ import Home from './pages/home';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
 
+import Header from './components/header';
+
 function App() {
   return (
     <div className="App">
+      <Header/>
       <main>
-      <header className="App-header">
+      {/* <header className="App-header">
         <nav>
           <NavLink to="/" style={{color: "white"}}>Home</NavLink>
           <NavLink to="/contact">Contact me</NavLink>
           <NavLink to="/projects">Projects</NavLink>
         </nav>
-        </header>
+        </header> */}
         {/* <Home></Home> */}
         {/* <Contact></Contact> */}
         {/* <Projects></Projects> */}

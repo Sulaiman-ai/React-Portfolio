@@ -1,5 +1,14 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 a {
   color: black;
+}
+
+nav * {
+  margin-left: 1em;
 }
 
 NavLink {
@@ -36,9 +45,24 @@ NavLink {
   color: #61dafb;
 }
 
-.contact-page {
+/* Header */
+
+.header {
+  background-color: #282c34;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+/* Contact Page */
+
+.contact-page {
+  border: solid;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .contact-form-container {
@@ -75,6 +99,21 @@ textarea {
   padding-bottom: 1em;
 }
 
+/* Project Page */
+
+.project-container {
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.project-details {
+  margin-left: 5vw;
+}
+
+img {
+  max-width: 25vw;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -82,4 +121,22 @@ textarea {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 960px){
+  /* Contact Page */
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .Contact-form * {
+    min-width: 90vw;
+    margin-bottom: 1em;
+    /* max-width: 50vw; */
+  }
+  textarea {
+    min-height: 20vh;
+  }
+
 }

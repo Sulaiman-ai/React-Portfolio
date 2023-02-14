@@ -58,40 +58,60 @@ NavLink {
 /* Contact Page */
 
 .contact-page {
-  border: solid;
+  /* border: solid; */
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0;
 }
 
 .contact-form-container {
   border: none;
+  /* padding-right: 12em; */
+}
+
+.contact-form-container h1 {
+  text-align: start;
 }
 
 .Contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 }
 
 .Contact-form * {
-  min-width: 50vw;
+  min-width: 30vw;
   margin-bottom: 1em;
   /* max-width: 50vw; */
 }
 
+.Contact-form label {
+  text-align: start;
+}
+
+.Contact-form input[name="email"],
+.Contact-form input[name="name"] {
+  /* min-width: 30vw; */
+  min-height: 2em;
+}
+
 textarea {
-  min-height: 50vh;
+  min-height: 25vh;
 }
 
 .contact-details {
-  border: solid;
+  width: fit-content;
   padding: 1em;
   text-align: start;
 }
 
+.contact-details h1 {
+}
+
 .contact-details * {
+  width: fit-content;
+  padding: 0;
   margin: 0;
 }
 
@@ -108,6 +128,18 @@ textarea {
 
 .project-details {
   margin-left: 5vw;
+}
+
+.project-details h2 {
+  text-align: start;
+}
+
+.project-links {
+  display: flex;
+}
+
+.project-links * {
+  padding-right: 1em;
 }
 
 img {
@@ -128,7 +160,7 @@ img {
   .contact-page {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    align-items: center;
   }
   .Contact-form * {
     min-width: 90vw;

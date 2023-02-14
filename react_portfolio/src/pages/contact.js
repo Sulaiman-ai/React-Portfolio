@@ -3,8 +3,9 @@ import ContactForm from "../components/contact_form"
 function Contact(){
     return (
     <div className="contact-page">
-        <ContactForm/>
+        
         <div className="contact-details">
+            <h1>Contact</h1>
             <h4>Email</h4>
             <p>sulaiman.amjad@gmail.com</p>
 
@@ -25,6 +26,7 @@ function Contact(){
                 <p>07835339976</p>
             </div> */}
         </div>
+        <ContactForm/>
     </div>
     )
 }

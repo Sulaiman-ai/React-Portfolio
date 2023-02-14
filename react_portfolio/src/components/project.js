@@ -6,8 +6,12 @@ function Project(props){
     <img src={props.demosrc}/>
     <div className="project-details">
         <h2>{props.title}</h2>
-        <p><a href={props.deployed} target="_blank">Deployed project</a></p>
-        <p><a href={props.repo} target="_blank">GitHub Repo</a></p>
+        <div className="project-links">
+            <p><a href={props.repo} target="_blank">Source Code</a></p>
+            <p><a href={props.deployed} target="_blank">Application</a></p>
+        </div>
+        <div className="project-description"></div>
+        <div className="project-skills"></div>
     </div>
     </div>
     </>

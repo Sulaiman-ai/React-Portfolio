@@ -48,7 +48,7 @@ NavLink {
 /* Header */
 
 .header {
-  background-color: #282c34;
+  background-color: #282c34 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,9 +106,6 @@ textarea {
   text-align: start;
 }
 
-.contact-details h1 {
-}
-
 .contact-details * {
   width: fit-content;
   padding: 0;
@@ -140,6 +137,7 @@ textarea {
 
 .project-links * {
   padding-right: 1em;
+  color: black;
 }
 
 img {

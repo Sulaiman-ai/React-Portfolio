@@ -1,3 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  padding-top: 5vh;
+}
+
+a {
+  color: black;
+}
+
+nav * {
+  margin-left: 1em;
+}
+
+NavLink {
+  color: white;
+}
+
+/* Starter styles */
+
 .App {
   text-align: center;
 }
@@ -15,7 +38,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; original */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +51,148 @@
   color: #61dafb;
 }
 
+/* Header */
+
+.header {
+  background-color: #282c34 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+/* Page sections */
+
+.section {
+  margin-top: 1em;
+}
+
+.section-header {
+  display: flex;
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
+
+.section-header * {
+  margin-right: 3em;
+}
+
+/* Skills */
+
+.skills-content {
+  display: flex;
+}
+
+.skills-content div {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+.skills-content div h4 {
+  margin-bottom: 1em;
+}
+
+
+
+/* Contact Page */
+
+.contact-page {
+  /* border: solid; */
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.contact-form-container {
+  border: none;
+  /* padding-right: 12em; */
+}
+
+.contact-form-container h1 {
+  text-align: start;
+}
+
+.Contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Contact-form * {
+  min-width: 30vw;
+  margin-bottom: 1em;
+  /* max-width: 50vw; */
+}
+
+.Contact-form label {
+  text-align: start;
+}
+
+.Contact-form input[name="email"],
+.Contact-form input[name="name"] {
+  /* min-width: 30vw; */
+  min-height: 2em;
+}
+
+textarea {
+  min-height: 25vh;
+}
+
+.contact-details {
+  width: fit-content;
+  /* padding: 1em; */
+  text-align: start;
+}
+
+.contact-details * {
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-details h1 {
+  padding-bottom: 1em;
+}
+
+.contact-details p {
+  padding-bottom: 1em;
+}
+
+/* Project Page */
+
+.project-container {
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.project-details {
+  margin-left: 5vw;
+}
+
+.project-details h2 {
+  text-align: start;
+}
+
+.project-links {
+  display: flex;
+}
+
+.project-links * {
+  padding-right: 1em;
+  color: black;
+}
+
+img {
+  max-width: 25vw;
+}
+
+/* CV */
+
+.cv {
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +200,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 960px){
+  /* Contact Page */
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact-form * {
+    min-width: 90vw;
+    margin-bottom: 1em;
+    /* max-width: 50vw; */
+  }
+  textarea {
+    min-height: 20vh;
+  }
+
 }

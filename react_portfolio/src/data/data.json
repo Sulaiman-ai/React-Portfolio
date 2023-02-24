@@ -19,5 +19,26 @@
         "repo": "https://github.com/Sulaiman-ai/Password-Generator",
         "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Password-Generator/main/assets/images/screenshot.PNG",
         "skills": ["JS"]
+    },
+    {
+        "title": "Exploring Enigmas",
+        "deployed": "https://63f64f6e24551b0a4c28711d--exploring-enigmas.netlify.app/",
+        "repo": "https://github.com/Sulaiman-ai/Exploring-Enigmas",
+        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Exploring-Enigmas/main/img/sample-screenshot.png",
+        "skills": ["JS, React, CSS, Axios"]
+    },
+    {
+        "title": "Code Quiz",
+        "deployed": "https://sulaiman-ai.github.io/Code-Quiz/",
+        "repo": "https://github.com/Sulaiman-ai/Code-Quiz",
+        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Exploring-Enigmas/main/img/sample-screenshot.png",
+        "skills": ["JS, HTML, CSS"]
+    },
+    {
+        "title": "Study Guide",
+        "deployed": "https://sulaiman-ai.github.io/prework-study-guide/",
+        "repo": "https://github.com/Sulaiman-ai/prework-study-guide",
+        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Exploring-Enigmas/main/img/sample-screenshot.png",
+        "skills": ["JS, HTML, CSS"]
     }
 ]

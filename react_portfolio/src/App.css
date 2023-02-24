@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+.main {
+  padding-top: 5vh;
+}
+
 a {
   color: black;
 }
@@ -14,6 +18,8 @@ nav * {
 NavLink {
   color: white;
 }
+
+/* Starter styles */
 
 .App {
   text-align: center;
@@ -54,6 +60,39 @@ NavLink {
   align-items: center;
   padding: 1em;
 }
+
+/* Page sections */
+
+.section {
+  margin-top: 1em;
+}
+
+.section-header {
+  display: flex;
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
+
+.section-header * {
+  margin-right: 3em;
+}
+
+/* Skills */
+
+.skills-content {
+  display: flex;
+}
+
+.skills-content div {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+.skills-content div h4 {
+  margin-bottom: 1em;
+}
+
+
 
 /* Contact Page */
 
@@ -102,7 +141,7 @@ textarea {
 
 .contact-details {
   width: fit-content;
-  padding: 1em;
+  /* padding: 1em; */
   text-align: start;
 }
 
@@ -110,6 +149,10 @@ textarea {
   width: fit-content;
   padding: 0;
   margin: 0;
+}
+
+.contact-details h1 {
+  padding-bottom: 1em;
 }
 
 .contact-details p {

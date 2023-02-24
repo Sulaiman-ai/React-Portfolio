@@ -14,7 +14,7 @@ I am passionate about problem solving, and using technology to improve peoples l
 My aim is to constantly improve my skills a learn new technologies and technical solutions.</p>
             <button>View CV</button>
             <Skills/>
-            <p>Powered by ReactJS.</p>
+            <p>Portfolio. Powered by ReactJS.</p>
         </div>
         
         </div>

@@ -31,14 +31,14 @@
         "title": "Code Quiz",
         "deployed": "https://sulaiman-ai.github.io/Code-Quiz/",
         "repo": "https://github.com/Sulaiman-ai/Code-Quiz",
-        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Exploring-Enigmas/main/img/sample-screenshot.png",
+        "demosrc": "https://user-images.githubusercontent.com/15653252/70291755-20c6cc80-17aa-11ea-8688-c59b2cfec3ae.png",
         "skills": ["JS, HTML, CSS"]
     },
     {
         "title": "Study Guide",
         "deployed": "https://sulaiman-ai.github.io/prework-study-guide/",
         "repo": "https://github.com/Sulaiman-ai/prework-study-guide",
-        "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Exploring-Enigmas/main/img/sample-screenshot.png",
+        "demosrc": "https://cdn.dribbble.com/users/409669/screenshots/2240367/dribbble-shot-supersummary-2.jpg",
         "skills": ["JS, HTML, CSS"]
     }
 ]

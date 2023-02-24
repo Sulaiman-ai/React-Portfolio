@@ -5,6 +5,7 @@ import {Routes, Route, NavLink} from 'react-router-dom';
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
+import CV from './pages/cv';
 
 import Header from './components/header';
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/cv" element={<CV/>}/>
       </Routes>
     </div>
     // <div className="App">

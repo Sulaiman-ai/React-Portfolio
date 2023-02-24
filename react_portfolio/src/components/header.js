@@ -4,7 +4,8 @@ function Header (){
     const navData = {
         Home: "/",
         "Contact me": "/contact",
-        "Projects": "/projects"
+        "Projects": "/projects",
+        "CV": "/cv",
     }
 
     return (

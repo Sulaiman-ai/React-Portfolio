@@ -187,6 +187,15 @@ img {
   max-width: 25vw;
 }
 
+.pfp {
+  display: block;
+  margin:auto;
+  aspect-ratio: 1;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* CV */
 
 .cv {

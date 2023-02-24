@@ -4,7 +4,7 @@ function Home(){
     return (
         <div className="main">
         {/* Avatar */}
-        <img src={require("../icons/profile-pic.jpg")}></img>
+        <img src={require("../icons/profile-pic.jpg")} className="pfp"></img>
         <h1>Sulaiman Amjad</h1>
         <div>
             <p>Front-end Web Developer</p>
@@ -14,7 +14,7 @@ I am passionate about problem solving, and using technology to improve peoples l
 My aim is to constantly improve my skills a learn new technologies and technical solutions.</p>
             <button>View CV</button>
             <Skills/>
-            <p>Portfolio. Powered by ReactJS.</p>
+            <p>Powered by ReactJS.</p>
         </div>
         
         </div>

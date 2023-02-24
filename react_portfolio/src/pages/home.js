@@ -4,7 +4,7 @@ function Home(){
     return (
         <div className="main">
         {/* Avatar */}
-        {/* <img src={require("../icons/profile-pic.jpg")}></img> */}
+        <img src={require("../icons/profile-pic.jpg")}></img>
         <h1>Sulaiman Amjad</h1>
         <div>
             <p>Front-end Web Developer</p>

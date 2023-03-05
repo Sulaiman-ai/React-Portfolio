@@ -15,7 +15,7 @@ function Skills(){
         <div className="skills section">
             <div className="section-header">
                 <h1>Skills</h1>
-                <button>More</button>
+                {/* <button>More</button> */}
             </div>
             <div className="skills-content">
                 <div className="frontend-section">

@@ -12,7 +12,7 @@ function Home(){
 I have experience with Python, JavaScript, HTML, CSS, React SQL, Node and Express.
 I am passionate about problem solving, and using technology to improve peoples lives and provide efficient alternatives to deal with real life problems.
 My aim is to constantly improve my skills a learn new technologies and technical solutions.</p>
-            <button>View CV</button>
+            {/* <button>View CV</button> */}
             <Skills/>
             <p>Portfolio. Powered by ReactJS.</p>
         </div>

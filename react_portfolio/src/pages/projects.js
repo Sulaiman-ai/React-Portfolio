@@ -3,7 +3,7 @@ import projectData from "../data/data.json"
 
 function Projects(){
     return (
-        <div id="/projects" className="main">
+        <div id="/projects" className="main projects">
         <h1>Projects</h1>
         <div className="projects-container">
         {projectData.map((e) => (

@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 function Header (){
     const navData = {
         Home: "/",
-        "Contact me": "/contact",
+        "Skills": "/skills",
         "Projects": "/projects",
+        "Contact me": "/contact",
         "CV": "/cv",
     }
 

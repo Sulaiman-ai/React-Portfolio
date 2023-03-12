@@ -110,15 +110,15 @@ NavLink {
   margin-top: 1em;
 }
 
-.section-header {
+/* .section-header {
   display: flex;
   padding-left: 5em;
   padding-bottom: 2em;
-}
+} */
 
-.section-header * {
+/* .section-header * {
   margin-right: 3em;
-}
+} */
 
 /* Skills */
 
@@ -126,13 +126,14 @@ NavLink {
   background-color: #B8DBD9;
 }
 
-.skills-header {
+/* .skills-header {
   justify-content: center;
-}
+} */
 
 .skills-content {
   display: flex;
   justify-content: center;
+  padding-bottom: 4em;
 }
 
 .skills-content div {
@@ -156,6 +157,7 @@ NavLink {
   display: flex;
   justify-content: space-evenly;
   margin: 0;
+  padding: 4em;
 }
 
 .contact-form-container {
@@ -217,6 +219,10 @@ textarea {
 
 .projects {
   background-color: #586F7C;
+}
+
+.projects * {
+  color: white;
 }
 
 .projects-container {

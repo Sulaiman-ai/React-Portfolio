@@ -10,9 +10,12 @@ import express_icon from "../icons/expressjs-icon.svg";
 
 import Badge from "./badge";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function Skills(){
     return (
         <div id="/skills" className="skills section main">
+            <FontAwesomeIcon icon="fa-brands fa-react" size="4x" border pull="left" />
             <div className="section-header skills-header">
                 <h1>Skills</h1>
                 {/* <button>More</button> */}

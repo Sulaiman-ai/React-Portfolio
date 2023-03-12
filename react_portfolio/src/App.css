@@ -1,10 +1,14 @@
+
+
 html, body {
   height: 100%;
   width: 100%;
 }
 
 .main {
-  padding-top: 5vh;
+  position: relative;
+  min-height: 90vh;
+  /* padding-top: 5vh; */
 }
 
 a {
@@ -54,14 +58,37 @@ NavLink {
 /* Header */
 
 .header {
+  z-index: 9999;
+  position: sticky;
+  top: 0;
   background-color: #282c34 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 10vh;
+}
+
+/* Bio */
+
+.bio-section {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  width: 50vw;
 }
 
 /* Page sections */
+
+.home {
+  display: flex;
+}
 
 .section {
   margin-top: 1em;
@@ -79,8 +106,17 @@ NavLink {
 
 /* Skills */
 
+.skills {
+  background-color: #B8DBD9;
+}
+
+.skills-header {
+  justify-content: center;
+}
+
 .skills-content {
   display: flex;
+  justify-content: center;
 }
 
 .skills-content div {
@@ -98,6 +134,8 @@ NavLink {
 
 .contact-page {
   /* border: solid; */
+  background-color: #2F4550;
+  color: #F4F4F9;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -141,7 +179,7 @@ textarea {
 
 .contact-details {
   width: fit-content;
-  /* padding: 1em; */
+  padding: 2em;
   text-align: start;
 }
 
@@ -160,6 +198,12 @@ textarea {
 }
 
 /* Project Page */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .project-container {
   display: flex;

@@ -25,4 +25,11 @@
     "repo": "https://github.com/Sulaiman-ai/prework-study-guide",
     "demosrc": "https://cdn.dribbble.com/users/409669/screenshots/2240367/dribbble-shot-supersummary-2.jpg",
     "skills": ["JS, HTML, CSS"]
+},
+{
+    "title": "NucliHealth",
+    "deployed": "https://github.com/Sulaiman-ai/Fitness-App",
+    "repo": "https://github.com/Sulaiman-ai/Fitness-App",
+    "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Fitness-App/blob/main/assets/img/mindandboday.gif",
+    "skills": ["JS", "HTML", "CSS"]
 }]

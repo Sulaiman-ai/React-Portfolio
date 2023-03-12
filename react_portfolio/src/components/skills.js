@@ -12,8 +12,8 @@ import Badge from "./badge";
 
 function Skills(){
     return (
-        <div className="skills section">
-            <div className="section-header">
+        <div className="skills section main">
+            <div className="section-header skills-header">
                 <h1>Skills</h1>
                 {/* <button>More</button> */}
             </div>

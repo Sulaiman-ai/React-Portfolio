@@ -17,10 +17,11 @@ function ContactForm(){
           access_key
         };
     
-        fetch(`https://api.web3forms.com/form/submit`, {
+        fetch(`https://api.web3forms.com/submit`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            Accept: "application/json",
           },
           body: JSON.stringify(formData),
         })
@@ -43,7 +44,7 @@ function ContactForm(){
             {/* <p>React form module</p> */}
             <form className="Contact-form" onSubmit={handleSubmit}>
                 <label>NAME</label>
-                <input type="text" name="name" placeholder="Enter your email address"
+                <input type="text" name="name" placeholder="Enter your name"
                 onChange={e=> setName(e.target.value)}/>
                 <label>EMAIL</label>
                 <input type="text" name="email" placeholder="Enter your email address"

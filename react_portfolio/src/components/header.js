@@ -6,7 +6,7 @@ function Header (){
         "Skills": "/skills",
         "Projects": "/projects",
         "Contact me": "/contact",
-        "CV": "/cv",
+        // "CV": "/cv",
     }
 
     const handleClickScroll = (section) => {

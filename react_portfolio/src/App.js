@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
 import CV from './pages/cv';
+import Skills from './components/skills';
 
 import Header from './components/header';
 
@@ -14,25 +15,19 @@ function App() {
     <div className="App">
       <Header/>
       <main>
-      {/* <header className="App-header">
-        <nav>
-          <NavLink to="/" style={{color: "white"}}>Home</NavLink>
-          <NavLink to="/contact">Contact me</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
-        </nav>
-        </header> */}
-        {/* <Home></Home> */}
-        {/* <Contact></Contact> */}
-        {/* <Projects></Projects> */}
-        
+        <Home/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
       </main>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/cv" element={<CV/>}/>
-      </Routes>
+      <footer><p>Powered by ReactJS.</p></footer>
     </div>
+      // <Routes>
+      //   <Route path="/" element={<Home/>}/>
+      //   <Route path="/contact" element={<Contact/>}/>
+      //   <Route path="/projects" element={<Projects/>}/>
+      //   <Route path="/cv" element={<CV/>}/>
+      // </Routes>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

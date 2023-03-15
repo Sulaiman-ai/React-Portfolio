@@ -1,0 +1,35 @@
+[{
+    "title": "Console Finances",
+    "deployed": "https://sulaiman-ai.github.io/Console-Finances/",
+    "repo": "https://github.com/Sulaiman-ai/Console-Finances",
+    "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Console-Finances/main/screenshot.PNG",
+    "skills": ["JS"]
+},
+{
+    "title": "Password Generator",
+    "deployed": "https://sulaiman-ai.github.io/Password-Generator/",
+    "repo": "https://github.com/Sulaiman-ai/Password-Generator",
+    "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Password-Generator/main/assets/images/screenshot.PNG",
+    "skills": ["JS"]
+},
+{
+    "title": "Code Quiz",
+    "deployed": "https://sulaiman-ai.github.io/Code-Quiz/",
+    "repo": "https://github.com/Sulaiman-ai/Code-Quiz",
+    "demosrc": "https://user-images.githubusercontent.com/15653252/70291755-20c6cc80-17aa-11ea-8688-c59b2cfec3ae.png",
+    "skills": ["JS, HTML, CSS"]
+},
+{
+    "title": "Study Guide",
+    "deployed": "https://sulaiman-ai.github.io/prework-study-guide/",
+    "repo": "https://github.com/Sulaiman-ai/prework-study-guide",
+    "demosrc": "https://cdn.dribbble.com/users/409669/screenshots/2240367/dribbble-shot-supersummary-2.jpg",
+    "skills": ["JS, HTML, CSS"]
+},
+{
+    "title": "NucliHealth",
+    "deployed": "https://github.com/Sulaiman-ai/Fitness-App",
+    "repo": "https://github.com/Sulaiman-ai/Fitness-App",
+    "demosrc": "https://raw.githubusercontent.com/Sulaiman-ai/Fitness-App/blob/main/assets/img/mindandboday.gif",
+    "skills": ["JS", "HTML", "CSS"]
+}]

@@ -1,5 +1,5 @@
-import { CBadge } from '@coreui/react';
-import '@coreui/coreui/dist/css/coreui.min.css'
+// import { CBadge } from '@coreui/react';
+// import '@coreui/coreui/dist/css/coreui.min.css'
 
 function Project(props){
     return (
@@ -17,9 +17,9 @@ function Project(props){
         <div className="project-description"></div>
         <div className="project-skills">
             {/* <Badge name="node.js"/> */}
-            {props.skills.map((e) => (
+            {/* {props.skills.map((e) => (
                 <CBadge color="primary">{e}</CBadge>
-            ))}
+            ))} */}
         </div>
     </div>
     </div>

@@ -148,7 +148,8 @@ NavLink {
   padding-bottom: 4em;
 }
 
-.skills-content div {
+.skills-content > div {
+  flex-shrink: 1;
   margin-left: 2.5em;
   margin-right: 2.5em;
 }
@@ -273,7 +274,7 @@ img {
   display: block;
   margin:auto;
   aspect-ratio: 1;
-  height: 35vh;
+  /* height: 35vh; */
   object-fit: cover;
   border-radius: 50%;
 }
@@ -309,4 +310,51 @@ img {
     min-height: 20vh;
   }
 
+}
+
+@media screen and (max-width: 650px) {
+  .skills-content {
+    flex-direction: column;
+  }
+
+  .skills-content > div {
+    margin-bottom: 2em;
+  }
+
+  .skills-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 0; */
+  }
+
+  .skills-cards > * {
+    padding: 1em;
+    flex-shrink: 1;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-cards > * > *{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
+  .pfp{
+    order: 1;
+    margin: 1em auto 1em auto;
+  }
+  .bio-section{
+    order: 2;
+    align-items: center;
+  }
 }

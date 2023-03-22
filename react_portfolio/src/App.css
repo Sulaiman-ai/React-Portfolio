@@ -268,6 +268,8 @@ textarea {
 
 img {
   max-width: 25vw;
+  /* width: max(15em, 25vw); */
+  /* width: 25vw; */
 }
 
 .pfp {
@@ -277,6 +279,10 @@ img {
   /* height: 35vh; */
   object-fit: cover;
   border-radius: 50%;
+  max-width: none;
+  width: max(15em, 25vw);
+  /* height: min(10rem 30vw); */
+  /* height:  */
 }
 
 /* CV */
@@ -353,8 +359,13 @@ img {
     order: 1;
     margin: 1em auto 1em auto;
   }
+  .bio{
+    width: 75vw;
+    text-align: justify;
+  }
   .bio-section{
     order: 2;
     align-items: center;
+    padding-top: 0;
   }
 }

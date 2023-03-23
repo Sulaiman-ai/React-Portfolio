@@ -38,6 +38,19 @@ NavLink {
   color: white;
 }
 
+.inline {
+  display: inline-block;
+}
+
+.inline-icon {
+  padding-right: 1em;
+}
+
+.link-icon {
+  margin-right: 1em;
+  color: white;
+}
+
 /* Starter styles */
 
 .App {
@@ -170,7 +183,7 @@ NavLink {
   display: flex;
   justify-content: space-evenly;
   margin: 0;
-  padding: 4em;
+  /* padding: 4em; */
 }
 
 .contact-form-container {

@@ -321,7 +321,8 @@ img {
     align-items: center;
   }
   .Contact-form * {
-    min-width: 90vw;
+    /* min-width: 90vw; */
+    width: min(20em, 90vw);
     margin-bottom: 1em;
     /* max-width: 50vw; */
   }

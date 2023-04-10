@@ -6,7 +6,7 @@ function Project(props){
     <>
     {/* <CBadge color="primary">NodeJS</CBadge> */}
     {/* <h1>Project 1</h1> */}
-    <div className="project-container">
+    <div className="project-card">
     <img className="project-thumbnail" src={props.demosrc}/>
     <div className="project-details">
         <h2>{props.title}</h2>

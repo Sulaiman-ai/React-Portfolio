@@ -1,0 +1,285 @@
+/* VARIABLES */
+
+:root {
+    --charcoal: #2F4550;
+    --paynes-gray: #586F7C;
+    --light-blue: #B8DBD8;
+    --ghost-white: #F4F4F9;
+}
+
+/* COLOURING */
+
+.projects,
+.contact-page {
+    color: var(--ghost-white);
+}
+
+/* RESET STYLES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-size: 100%; */
+    text-decoration: none;
+    text-align: center;
+    font-family: inherit;
+  }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 25vw;
+}
+
+h1, p {
+    padding-block: .5em;
+    /* font-size: 16px; */
+}
+
+input[type="text"] {
+    min-height: 2em;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+nav > div {
+    /* transform: rotate(45deg); */
+}
+
+nav > div > a {
+    position: relative;
+    /* font-size: 15px; */
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    margin-right: 1em;
+}
+
+nav > div > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-in-out;
+  }
+
+nav > div > a:hover::after {
+    transform: scaleX(1);
+}
+
+/* nav > div:hover {
+    transition: transform 0.25s;
+    transform: translateY(-.125em);
+}
+
+nav > div > a:hover {
+    text-decoration: underline;
+} */
+
+/* LAYOUT STYLES */
+
+.main {
+    position: relative;
+    min-height: 90vh;
+    padding-inline: 5vw;
+    padding-block: 3em;
+}
+
+.header {
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    background-color: #282c34 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    /* padding-right: 1em; */
+    height: 10vh;
+}
+
+.skills {
+    background-color: var(--light-blue);
+}
+
+.projects {
+    background-color: var(--paynes-gray);
+}
+
+.contact-page {
+    background-color: var(--charcoal);
+}
+
+/* COMPONENT STYLES */
+
+/* skills section */
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.skills-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-cards > * {
+padding: 1em;
+flex-shrink: 1;
+min-width: 0;
+max-width: 100%;
+height: auto;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.skills-cards > * > *{
+max-width: 100%;
+}
+
+/* project section */
+
+.projects-container{
+    padding-block: 5em;
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: 75%; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+
+.project-card {
+    /* border: solid; */
+    background-color: var(--charcoal);
+    display: grid;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.project-details {
+    display: grid;
+    gap: 1em;
+}
+
+.project-links {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 25%;
+}
+
+.project-links > div {
+    padding: .5em;
+    background-color: grey;
+}
+
+.project-thumbnail {
+    max-width: none;
+    aspect-ratio: 2;
+    width: 100%;
+  }
+
+
+/* contact section */
+
+.contact-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-column: span 1; */
+    /* grid-template-columns: 1fr; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    align-content: center;
+}
+
+.contact-page *{
+    text-align: start;
+}
+
+.contact-details {
+    /* width: 100%; */
+    /* padding: 2em; */
+    text-align: start;
+}
+
+.contact-details * {
+    width: fit-content;
+}
+
+.contact-form-container {
+    width: fit-content;
+}
+
+.Contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Contact-form * {
+    width: min(20em, 90vw);
+    margin-bottom: 1em;
+}
+
+.Contact-form input[type="text"],
+.Contact-form textarea {
+    width: 100%;
+}
+
+textarea {
+    padding: .25rem;
+    min-height: 20vh;
+}
+
+/* personal profile */
+
+.pfp {
+    display: block;
+    margin:auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: none;
+    width: max(15em, 25vw);
+}
+
+/* UTILITY CLASSES */
+
+.inline {
+    display: inline-block;
+}
+  
+  .inline-icon {
+    padding-right: 1em;
+}
+
+.link-icon {
+    margin-right: 1em;
+}

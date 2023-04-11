@@ -61,10 +61,6 @@ nav {
     justify-content: end;
 }
 
-nav > div {
-    /* transform: rotate(45deg); */
-}
-
 nav > div > a {
     position: relative;
     /* font-size: 15px; */

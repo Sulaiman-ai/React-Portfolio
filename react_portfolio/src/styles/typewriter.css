@@ -2,6 +2,10 @@
     /*   border: solid; */
       position: relative;
     }
+
+.typewriter, .letters {
+    text-align: start;
+}
     
 .typewriter .letter {
 /*   border: solid; */

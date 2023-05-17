@@ -24,10 +24,12 @@ function Skills(){
             <div className="skills-content">
                 <div className="frontend-section">
                     <h4>Front End</h4>
-                    <SkillCard icon="fa-react" name="React"/>
-                    <SkillCard icon="fa-html5" name="HTML5"/>
-                    <SkillCard icon="fa-css3" name="CSS3"/>
-                    <SkillCard icon="fa-js" name="JavaScript"/>
+                    <div className="skills-cards">
+                        <SkillCard icon="fa-react" name="React"/>
+                        <SkillCard icon="fa-html5" name="HTML5"/>
+                        <SkillCard icon="fa-css3" name="CSS3"/>
+                        <SkillCard icon="fa-js" name="JavaScript"/>
+                    </div>
 
                     {/* <img src={js_logo}/>
                     <img src={html_icon}/> */}
@@ -37,8 +39,10 @@ function Skills(){
                 {/* <img src={css_icon}/> */}
                 <div className="backend-languages">
                     <h4>Back End</h4>
-                    <SkillCard icon="fa-node" name="Node"/>
-                    <SkillCard icon="fa-python" name="Python"/>
+                    <div className="skills-cards">
+                        <SkillCard icon="fa-node" name="Node"/>
+                        <SkillCard icon="fa-python" name="Python"/>
+                    </div>
 
                     {/* <img src={nodejs_icon}/>
                     <img src={python_icon}/>
@@ -46,10 +50,12 @@ function Skills(){
                 </div>
                 <div className="servers">
                     <h4>Server Frameworks</h4>
-                    <img src={flask_icon}/>
-                    <p>Flask</p>
-                    <img src={express_icon}/>
-                    <p>ExpressJS</p>
+                    <div className="skills-cards">
+                        <img src={flask_icon}/>
+                        <p>Flask</p>
+                        <img src={express_icon}/>
+                        <p>ExpressJS</p>
+                    </div>
                 </div>
                 {/* <img src={jquery_icon}/> */}
             </div>

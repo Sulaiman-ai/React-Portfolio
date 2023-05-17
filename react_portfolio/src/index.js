@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 // import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFontAwesome, faReact, faHtml5, faCss3, faJs, faNode, faPython } from '@fortawesome/free-brands-svg-icons'
+import { fas, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFontAwesome, faReact, faHtml5, faCss3, faJs, faNode, faPython, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 // import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 // import { faHatCowboy } from '@fortawesome/pro-thin-svg-icons'
 // import { faHatChef } from '@fortawesome/sharp-solid-svg-icons'
@@ -15,7 +15,7 @@ import { faTwitter, faFontAwesome, faReact, faHtml5, faCss3, faJs, faNode, faPyt
 
 import { BrowserRouter } from 'react-router-dom';
 
-library.add(fas, faReact, faHtml5, faCss3, faJs, faNode, faPython)
+library.add(fas, faReact, faHtml5, faCss3, faJs, faNode, faPython, faEnvelope, faPhone, faLinkedin, faGithub)
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

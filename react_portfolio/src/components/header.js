@@ -22,7 +22,7 @@ function Header (){
             <nav>
                 {Object.keys(navData).map((key) => (
                     // <NavLink to={navData[key]} style={{color: "white"}}>{key}</NavLink>
-                    <NavLink onClick={()=> handleClickScroll(navData[key])} style={{color: "white"}}>{key}</NavLink>
+                    <div><NavLink onClick={()=> handleClickScroll(navData[key])} style={{color: "white"}}>{key}</NavLink></div>
                 ))}
                 {/* <NavLink to="/" style={{color: "white"}}>Home</NavLink>
                 <NavLink to="/contact">Contact me</NavLink>
